@@ -1,0 +1,55 @@
+Last login: Wed Mar 31 22:09:11 on ttys002
+(base) damisohutchinson@Damisos-Air python_challenge % ls
+(base) damisohutchinson@Damisos-Air python_challenge % ls   
+PyBank	PyPoll
+(base) damisohutchinson@Damisos-Air python_challenge % pwd
+/Users/damisohutchinson/Desktop/GA Tech/python_challenge
+(base) damisohutchinson@Damisos-Air python_challenge % git push damiso24/python_challenge python_challenge
+error: src refspec python_challenge does not match any
+error: failed to push some refs to 'damiso24/python_challenge'
+(base) damisohutchinson@Damisos-Air python_challenge % git push <damiso24/python_challenge> <python_challenge>
+zsh: parse error near `<'
+(base) damisohutchinson@Damisos-Air python_challenge % pwd
+/Users/damisohutchinson/Desktop/GA Tech/python_challenge
+(base) damisohutchinson@Damisos-Air python_challenge % git remote
+origin
+(base) damisohutchinson@Damisos-Air python_challenge % git remote show origin
+Warning: Permanently added the RSA host key for IP address '140.82.112.3' to the list of known hosts.
+Enter passphrase for key '/Users/damisohutchinson/.ssh/id_rsa': 
+* remote origin
+  Fetch URL: git@github.com:damiso24/python_challenge.git
+  Push  URL: git@github.com:damiso24/python_challenge.git
+  HEAD branch: main
+  Remote branch:
+    main tracked
+  Local branch configured for 'git pull':
+    main merges with remote main
+  Local ref configured for 'git push':
+    main pushes to main (up to date)
+(base) damisohutchinson@Damisos-Air python_challenge % pwd                   
+/Users/damisohutchinson/Desktop/GA Tech/python_challenge
+(base) damisohutchinson@Damisos-Air python_challenge % ls
+PyBank	PyPoll
+(base) damisohutchinson@Damisos-Air python_challenge % git add .
+(base) damisohutchinson@Damisos-Air python_challenge % git commit
+hint: Waiting for your editor to close the file... 
+"Befor I Begin"
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+
+# Changes to be committed:
+#       new file:   .DS_Store
+#       new file:   PyBank/main.py
+#       new file:   PyPoll/main.py
+#       deleted:    Screen Shot 2021-03-09 at 8.10.21 PM.png
+#
+~                                                                                                                                 
+~                                                                                                                                 
+~                                                                                                                                 
+~                                                                                                                                 
+-- INSERT --
